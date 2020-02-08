@@ -69,7 +69,9 @@ press the "Project" tab --> "options" --> change the dropdown "release" tab to "
  
 
 #ifndef APP_PWM_ENABLED
+
 #define APP_PWM_ENABLED 0 --> 1
+
 #endif
 
 
@@ -80,7 +82,9 @@ press the "Project" tab --> "options" --> change the dropdown "release" tab to "
 
 
 #ifndef GPIOTE_ENABLED
+
 #define GPIOTE_ENABLED 1
+
 #endif
 
 
@@ -88,7 +92,9 @@ and enable nrfx_gpiote
 
 
 #ifndef NRFX_GPIOTE_ENABLED
+
 #define NRFX_GPIOTE_ENABLED 1
+
 #endif
 
 
