@@ -62,7 +62,7 @@ Search and add the following files
 press the "Project" tab --> "options" --> change the dropdown "release" tab to "common" --> go to "preprocessor" --> go to "user include directories" and click [...] and add app_pwm.h file there (nRF5_SDK_15.2.0_9412b96\components\libraries\pwm\app_pwm.h)
 
 
-3. Compare the nRF_Drivers and add all the necessary driver files (nrf_nvic.c , nrf_soc.c) and add the necessary headers in the main file, If needed add all the necessary nrfx and legacy drivers in nRF_drivers tab and add the header file in main program
+3. Compare the nRF_Drivers and add all the necessary driver files (nrf_nvic.c , nrf_soc.c) and add the necessary headers in the main file, If needed add all the necessary nrfx and legacy drivers in nRF_drivers tab & nRF_Libraries and add the header file in main program
 
 
 4. Search for app_pwm in sdk_config.h and enable it
