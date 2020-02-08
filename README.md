@@ -78,7 +78,7 @@ press the "Project" tab --> "options" --> change the dropdown "release" tab to "
 5." APP_PWM_INSTANCE(PWM1,1);"  Since we have enable timer instance 1 , enable the nrf_drv_timer and nrfx_timer for timer instance 1( Step 1 & 2 in Merging ADC with BLE)
 
 
-6. enable nrf_drv_gpiote 
+6.enable nrf_drv_gpiote 
 
 
 #ifndef GPIOTE_ENABLED
@@ -98,7 +98,7 @@ and enable nrfx_gpiote
 #endif
 
 
-7. while merging BLE,ADC,PWM
+7.while merging BLE,ADC,PWM
 
 
 Enable SAADC first and PWM next ( in the "void main()" loop)
