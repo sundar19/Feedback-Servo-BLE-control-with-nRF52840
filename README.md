@@ -102,3 +102,47 @@ and enable nrfx_gpiote
 
 
 Enable SAADC first and PWM next ( in the "void main()" loop)
+
+
+## Connections
+
+nRF52840==>feedback servo
+
+5V==>Red Wire
+
+GND==>Black Wire
+
+P0.14==>white wire(PWM)
+
+P0.02==>Yellow wire(ADC)
+
+
+NOTE: 
+we can send commands via Nordic Toolbox App in playstore (Go to UART and send these values)
+
+
+VALUE==>Rotation
+
+Clockwise 
+
+1==>90
+
+2==>180
+
+3==>270
+
+4==>360
+
+counter clockwise
+
+
+5==>90
+
+6==>180
+
+7==>270
+
+8==>360
+
+
+Note the if loop inside the main loop consists of ADC values and may vary for different servo motors. So set a reference position for your servo motor and get ADC values at different positions and change the ADC values in the program.
