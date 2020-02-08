@@ -117,6 +117,8 @@ P0.14==>white wire(PWM)
 P0.02==>Yellow wire(ADC)
 
 
+## Control and Calibration
+
 NOTE: 
 we can send commands via Nordic Toolbox App in playstore (Go to UART and send these values)
 
@@ -144,5 +146,6 @@ counter clockwise
 
 8==>360
 
+The angle or degrees provided are quantized and doesnot move respective degree from starting position.
 
-Note the if loop inside the main loop consists of ADC values and may vary for different servo motors. So set a reference position for your servo motor and get ADC values at different positions and change the ADC values in the program.
+Note: the if loop inside the main loop consists of ADC values and may vary for different servo motors. So set a reference position for your servo motor and get ADC values at different positions and change the ADC values in the program.
